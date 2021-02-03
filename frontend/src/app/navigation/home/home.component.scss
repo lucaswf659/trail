@@ -1,0 +1,14 @@
+@import '../../../sass/styles.scss';
+
+.home-passeios {
+    padding-top: 400px;
+    font-family: $primary-font;
+}
+
+.row {
+    justify-content: space-between;
+}
+
+.home-trilhas-lista {
+    list-style-type: none;
+}

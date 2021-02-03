@@ -1,0 +1,24 @@
+@import '../../../sass/styles.scss';
+
+.menu-navigation {
+    padding: 15px;
+    color: $black;
+}
+
+.row-nav {
+    justify-content: space-between;
+}
+
+nav {
+    background: $black;
+}
+
+a {
+    color: $gray; 
+    font-size: 20px;
+    font-family: $primary-font;
+}
+
+a:hover {
+    color: $white;
+}

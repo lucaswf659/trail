@@ -1,0 +1,19 @@
+@import './variables';
+
+@mixin breakpoint-small {
+    @media (max-width: $mq-small) {
+        @content;
+    }
+}
+
+@mixin breakpoint-medium {
+    @media (max-width: $mq-medium){
+        @content;
+    }
+}
+
+@mixin breakpoint-large {
+    @media (max-width: $mq-large){
+        @content;
+    }
+}

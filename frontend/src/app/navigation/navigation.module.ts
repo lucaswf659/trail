@@ -1,4 +1,5 @@
 import { NgModule } from '@angular/core';
+import { RouterModule } from '@angular/router';
 
 import { FooterComponent } from './footer/footer.component';
 import { MenuComponent } from './menu/menu.component';
@@ -12,7 +13,9 @@ import { RegionComponent } from './region/region.component';
         HomeComponent, 
         RegionComponent
     ],
-    imports: [],
+    imports: [
+        RouterModule
+    ],
     exports: [
         FooterComponent, 
         MenuComponent, 
